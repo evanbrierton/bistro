@@ -1,0 +1,23 @@
+.Jumbotron {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.Jumbotron > * {
+  width: 100%
+}
+
+.Jumbotron > hr {
+  width: 50%;
+  margin-right: 50%;
+  color: white;
+  height: 0.5rem;
+  border-radius: 2rem;
+}
+
+.Jumbotron > p {
+  margin: 3rem;
+}
