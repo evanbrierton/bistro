@@ -3,9 +3,7 @@ import { arrayOf, strings } from 'prop-types';
 import { Jumbotron } from '../../components';
 
 const About = ({ paragraphs }) => (
-  <main>
-    <Jumbotron heading="Our Story" paragraphs={paragraphs} />
-  </main>
+  <Jumbotron heading="Our Story" paragraphs={paragraphs} />
 );
 
 About.propTypes = { paragraphs: arrayOf(strings).isRequired };

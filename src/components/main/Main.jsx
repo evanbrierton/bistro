@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { Home, Book, About } from '../../routes';
+import {
+  Home, Book, About, Location,
+} from '../../routes';
 import { hipsum } from '../../utils';
 
 class Main extends Component {
@@ -14,11 +16,14 @@ class Main extends Component {
   render = () => {
     const { paragraphs } = this.state;
     return (
-      <Switch>
-        <Route exact path="/" render={() => <Home paragraphs={paragraphs} />} />
-        <Route exact path="/about" render={() => <About paragraphs={paragraphs} />} />
-        <Route exact path="/book" component={Book} />
-      </Switch>
+      <main>
+        <Switch>
+          <Route exact path="/" render={() => <Home paragraphs={paragraphs} />} />
+          <Route exact path="/about" render={() => <About paragraphs={paragraphs} />} />
+          <Route exact path="/book" component={Book} />
+          <Route exact path="/location" render={() => <Location paragraphs={paragraphs.slice(2)} />} />
+        </Switch>
+      </main>
     );
   }
 }

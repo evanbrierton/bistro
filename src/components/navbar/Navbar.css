@@ -7,4 +7,6 @@
 
 .Navbar > * {
   margin: auto 1em;
+  text-align: center;
+  width: 15rem;
 }
