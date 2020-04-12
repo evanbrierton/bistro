@@ -8,7 +8,7 @@
   flex-wrap: wrap;
   padding: 3rem;
   margin: 2rem;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .BookingModal > * {
@@ -27,3 +27,7 @@ input {
 .BookingModal > hr {
   width: 100%;
 }
+/* 
+input[type=time] {
+  text-align: center;
+} */

@@ -1,5 +1,5 @@
 import React from 'react';
-import { arrayOf, strings } from 'prop-types';
+import { arrayOf, string } from 'prop-types';
 import { Jumbotron } from '../../components';
 
 const Location = ({ paragraphs }) => (
@@ -10,6 +10,6 @@ const Location = ({ paragraphs }) => (
   </Jumbotron>
 );
 
-Location.propTypes = { paragraphs: arrayOf(strings).isRequired };
+Location.propTypes = { paragraphs: arrayOf(string).isRequired };
 
 export default Location;

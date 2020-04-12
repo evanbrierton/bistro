@@ -1,5 +1,5 @@
 import React from 'react';
-import { arrayOf, strings } from 'prop-types';
+import { arrayOf, string } from 'prop-types';
 import { background, burger, bar } from '../../images';
 import { Parallax } from '../../components';
 import About from '../about';
@@ -20,6 +20,6 @@ const Home = ({ paragraphs }) => (
   </>
 );
 
-Home.propTypes = { paragraphs: arrayOf(strings).isRequired };
+Home.propTypes = { paragraphs: arrayOf(string).isRequired };
 
 export default Home;
