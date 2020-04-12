@@ -7,7 +7,7 @@ import { theme } from '../../utils';
 import './Parallax.css';
 
 const Parallax = ({ background, heading, style }) => (
-  <section className="Parallax" style={{ color: theme.text.light, ...style }}>
+  <section className="Parallax" style={{ backgroundImage: `url(${background})`, color: theme.text.light, ...style }}>
     <div className="background" style={{ backgroundImage: `url(${background})` }} />
     {heading ? <h2>{heading}</h2> : null}
   </section>
