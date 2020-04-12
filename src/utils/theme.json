@@ -3,5 +3,6 @@
   "text": {
     "light": "#ffffff",
     "dark": "#212121"
-  }
+  },
+  "active": "#b71c1c"
 }

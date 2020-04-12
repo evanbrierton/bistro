@@ -32,6 +32,7 @@ h2 {
   font-family: 'Lobster', cursive;
   font-size: 10rem;
   padding: 1rem;
+  text-shadow: 2px 2px rgba(0,0,0,0.75);
   border: white solid 1rem;
 }
 
@@ -40,6 +41,18 @@ h3 {
   font-size: 8rem;
   margin: 0;
   /* text-decoration: underline;s */
+}
+
+h4 {
+  font-size: 1.5rem;
+  text-align: center;
+  height: fit-content;
+  margin: none;
+}
+
+h5 {
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
 
 p {
@@ -58,3 +71,26 @@ main {
 .halfscreen {
   height: 50vh;
 }
+
+span {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 
+svg {
+  display: inline-flex;
+  align-self: center;
+} */
+
+svg {
+  height: 2rem;
+  width: 2rem;
+  top: 0.5em;
+}
+
+/* svg {
+  top: 0.4em;
+  position: relative;
+} */

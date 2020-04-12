@@ -1,0 +1,15 @@
+.Calendar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.DayPicker {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.DayPicker-Footer {
+  display: flex;
+  justify-content: center;
+}

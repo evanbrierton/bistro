@@ -1,5 +1,10 @@
 .Navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+  padding: 2em;
+}
+
+.Navbar > * {
+  margin: auto 1em;
 }
