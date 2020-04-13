@@ -1,0 +1,16 @@
+.EmailForm {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100% !important;
+}
+
+.EmailForm > input {
+  font-size: 3rem;
+  height: 5rem;
+  margin: 5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  border: 1px solid black
+}
