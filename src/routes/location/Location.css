@@ -1,0 +1,14 @@
+.map-wrapper {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+iframe {
+  border-radius: 1rem;
+  margin: 2rem;
+  width: 80%;
+  height: 50vh;
+}

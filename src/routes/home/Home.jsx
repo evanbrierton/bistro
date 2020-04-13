@@ -13,9 +13,9 @@ const Home = ({ paragraphs }) => (
   <>
     <Parallax heading="Welcome to: The Bistro" background={background} />
     <About paragraphs={paragraphs.slice(0, 2)} />
-    <Parallax heading="Quote" background={burger} />
+    <Parallax heading="Burgers, fries and good times." background={burger} />
     <Book colour={theme.primary} />
-    <Parallax heading="Quote" background={bar} />
+    <Parallax heading="Time flies when you’re having rum." background={bar} />
     <Location paragraphs={paragraphs.slice(2)} />
   </>
 );

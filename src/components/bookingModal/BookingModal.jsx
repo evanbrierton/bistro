@@ -32,7 +32,14 @@ class BookingModal extends Component {
     if (scene === 1) this.setState({ buttonFunction: this.next, buttonText: 'NEXT' });
   }
 
-  submit = () => console.log('SUBMIT');
+  submit = () => {
+    const {
+      date, time, name, email,
+    } = this.state;
+    date.setHours(time.slice(0, 2));
+    date.setMinutes(time.slice(3, 6));
+    console.log({ date, name, email });
+  };
 
   render = () => {
     const {
@@ -52,7 +59,7 @@ class BookingModal extends Component {
         {components[scene]}
         <div className="button-section">
           <hr style={{ color: theme.text.dark }} />
-          <Button onClick={buttonFunction} Icon={Next} style={{ margin: '2rem 40%' }}>
+          <Button onClick={buttonFunction} Icon={Next} fontSize={24} style={{ margin: '2rem 40%' }}>
             {buttonText}
           </Button>
         </div>

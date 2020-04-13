@@ -5,12 +5,29 @@
   width: 100% !important;
 }
 
-.EmailForm > input {
-  font-size: 3rem;
-  height: 5rem;
-  margin: 5rem;
+.EmailForm > label {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.EmailForm > label > span {
+  font-size: 18px;
+  width: fit-content;
+}
+
+.EmailForm > label > input {
+  font-size: 2rem;
+  height: 3rem;
   padding: 1rem;
+  margin: 1rem;
   border-radius: 1rem;
   width: 100%;
   border: 1px solid black
+}
+
+.EmailForm > label > input:invalid {
+  border: 1px solid red;
 }

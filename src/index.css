@@ -7,7 +7,7 @@ html {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Roboto', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -48,7 +48,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 24px;
   text-align: center;
   height: fit-content;
   margin: none;
@@ -60,12 +60,8 @@ h5 {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 24px;
   font-family: 'Roboto', sans-serif;
-}
-
-main {
-  height: calc(100vh - 5rem);
 }
 
 .fullscreen {

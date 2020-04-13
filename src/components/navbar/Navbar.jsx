@@ -9,11 +9,11 @@ import { theme } from '../../utils';
 
 const Navbar = ({ style }) => (
   <nav className="Navbar" style={{ color: theme.text.light, backgroundColor: theme.primary, ...style }}>
-    <h5><NavLink to="#">Menu</NavLink></h5>
-    <h5><NavLink to="/about">Our Story</NavLink></h5>
-    <h1><NavLink to="/">The Bistro</NavLink></h1>
-    <h5><NavLink to="/book">Book a Table</NavLink></h5>
-    <h5><NavLink to="/location">Where we are</NavLink></h5>
+    <NavLink className="small-link" to="#"><h5>Menu</h5></NavLink>
+    <NavLink className="small-link" to="/about"><h5>Our Story</h5></NavLink>
+    <NavLink to="/"><h1 style={{ borderBottom: `solid ${theme.active} 5px` }}>The Bistro</h1></NavLink>
+    <NavLink className="small-link" to="/book"><h5>Book a Table</h5></NavLink>
+    <NavLink className="small-link" to="/location"><h5>Where to find us</h5></NavLink>
   </nav>
 );
 
