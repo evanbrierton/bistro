@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import firebase from '../../firebase';
 import Calendar from '../calendar';
 import TimeInput from '../timeInput';
 import EmailForm from '../emailForm';
+import BookingConfirmation from '../bookingConfirmation';
 import Button from '../button';
 import { theme } from '../../utils';
 import { Previous, Next } from '../../icons';
@@ -33,12 +35,14 @@ class BookingModal extends Component {
   }
 
   submit = () => {
+    const emailer = firebase.functions().httpsCallable('email');
     const {
       date, time, name, email,
     } = this.state;
     date.setHours(time.slice(0, 2));
     date.setMinutes(time.slice(3, 6));
-    console.log({ date, name, email });
+    emailer({ date: date.getTime(), name, email });
+    this.setState({ scene: 3 });
   };
 
   render = () => {
@@ -49,20 +53,25 @@ class BookingModal extends Component {
       <Calendar handleDateClick={this.handleDateClick} selectedDate={date} />,
       <TimeInput value={time} onChange={this.handleChange('time')} />,
       <EmailForm onChange={this.handleChange} name={name} email={email} />,
+      <BookingConfirmation />,
     ];
     return (
       <form className="BookingModal" style={{ color: theme.text.dark }}>
-        <span style={{ marginLeft: '90%' }}>
-          <Button backgroundColor="rgba(0, 0, 0, 0)" color={theme.text.dark} Icon={Previous} style={{ boxShadow: 'none' }} onClick={this.previous} />
-          <Button backgroundColor="rgba(0, 0, 0, 0)" color={theme.text.dark} Icon={Next} style={{ boxShadow: 'none' }} onClick={this.next} />
-        </span>
+        { scene !== 3 ? (
+          <span style={{ marginLeft: '90%' }}>
+            <Button backgroundColor="rgba(0, 0, 0, 0)" color={theme.text.dark} Icon={Previous} style={{ boxShadow: 'none' }} onClick={this.previous} />
+            <Button backgroundColor="rgba(0, 0, 0, 0)" color={theme.text.dark} Icon={Next} style={{ boxShadow: 'none' }} onClick={this.next} />
+          </span>
+        ) : null }
         {components[scene]}
-        <div className="button-section">
-          <hr style={{ color: theme.text.dark }} />
-          <Button onClick={buttonFunction} Icon={Next} fontSize={24} style={{ margin: '2rem 40%' }}>
-            {buttonText}
-          </Button>
-        </div>
+        { scene !== 3 ? (
+          <div className="button-section">
+            <hr style={{ color: theme.text.dark }} />
+            <Button onClick={buttonFunction} Icon={Next} fontSize={24} style={{ margin: '2rem 40%' }}>
+              {buttonText}
+            </Button>
+          </div>
+        ) : null }
       </form>
     );
   }

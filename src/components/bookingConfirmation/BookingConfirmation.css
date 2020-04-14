@@ -1,0 +1,11 @@
+.BookingConfirmation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: space-between;
+}
+
+.BookingConfirmation > * {
+  text-align: center;
+  margin: 4rem 0;
+}
