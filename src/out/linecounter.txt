@@ -1,0 +1,88 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2020-04-16 19:47:36
+count workspace : /Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Web Design/Project/bistro/src
+total files : 67
+total code lines : 968
+total comment lines : 108
+total blank lines : 178
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .css|            315|             69|             49|     33|
+   |            .js|            192|             39|             44|     20|
+   |           .jsx|            446|              0|             85|     46|
+   |          .json|              8|              0|              0|   0.83|
+   |           .svg|              7|              0|              0|   0.72|
+   -------------------------------------------------------------------------
+components/app/App.css, code is 3, comment is 0, blank is 0.
+components/app/App.jsx, code is 16, comment is 0, blank is 2.
+components/app/App.test.jsx, code is 8, comment is 0, blank is 1.
+components/app/index.js, code is 2, comment is 0, blank is 1.
+components/bookingConfirmation/BookingConfirmation.css, code is 10, comment is 0, blank is 1.
+components/bookingConfirmation/BookingConfirmation.jsx, code is 12, comment is 0, blank is 3.
+components/bookingConfirmation/index.js, code is 2, comment is 0, blank is 1.
+components/bookingModal/BookingModal.css, code is 35, comment is 48, blank is 6.
+components/bookingModal/BookingModal.jsx, code is 84, comment is 0, blank is 13.
+components/bookingModal/index.js, code is 2, comment is 0, blank is 1.
+components/button/Button.css, code is 12, comment is 0, blank is 1.
+components/button/Button.jsx, code is 41, comment is 0, blank is 5.
+components/button/index.js, code is 2, comment is 0, blank is 1.
+components/calendar/Calendar.css, code is 13, comment is 0, blank is 2.
+components/calendar/Calendar.jsx, code is 19, comment is 0, blank is 4.
+components/calendar/index.js, code is 2, comment is 0, blank is 1.
+components/emailForm/EmailForm.css, code is 29, comment is 0, blank is 4.
+components/emailForm/EmailForm.jsx, code is 21, comment is 0, blank is 4.
+components/emailForm/index.js, code is 2, comment is 0, blank is 1.
+components/footer/Footer.css, code is 17, comment is 0, blank is 3.
+components/footer/Footer.jsx, code is 25, comment is 0, blank is 5.
+components/footer/index.js, code is 2, comment is 0, blank is 1.
+components/index.js, code is 4, comment is 0, blank is 1.
+components/jumbotron/index.js, code is 2, comment is 0, blank is 1.
+components/jumbotron/Jumbotron.css, code is 20, comment is 0, blank is 3.
+components/jumbotron/Jumbotron.jsx, code is 41, comment is 0, blank is 5.
+components/main/index.js, code is 2, comment is 0, blank is 1.
+components/main/Main.jsx, code is 27, comment is 0, blank is 4.
+components/navbar/index.js, code is 2, comment is 0, blank is 1.
+components/navbar/Navbar.css, code is 30, comment is 11, blank is 6.
+components/navbar/Navbar.jsx, code is 19, comment is 0, blank is 5.
+components/parallax/index.js, code is 2, comment is 0, blank is 1.
+components/parallax/Parallax.css, code is 43, comment is 0, blank is 5.
+components/parallax/Parallax.jsx, code is 17, comment is 0, blank is 4.
+components/timeInput/index.js, code is 2, comment is 0, blank is 1.
+components/timeInput/TimeInput.css, code is 13, comment is 0, blank is 1.
+components/timeInput/TimeInput.jsx, code is 16, comment is 0, blank is 4.
+firebase.js, code is 13, comment is 0, blank is 2.
+icons/Check.jsx, code is 13, comment is 0, blank is 3.
+icons/index.js, code is 4, comment is 0, blank is 1.
+icons/Next.jsx, code is 11, comment is 0, blank is 3.
+icons/Previous.jsx, code is 11, comment is 0, blank is 3.
+images/background.jpg, it is a binary file.
+images/bar.jpg, it is a binary file.
+images/burger.jpg, it is a binary file.
+images/crown-1332785_960_720.png, it is a binary file.
+images/index.js, code is 4, comment is 0, blank is 1.
+index.css, code is 77, comment is 10, blank is 16.
+index.jsx, code is 12, comment is 0, blank is 2.
+logo.svg, code is 7, comment is 0, blank is 0.
+routes/about/About.jsx, code is 8, comment is 0, blank is 3.
+routes/about/index.js, code is 2, comment is 0, blank is 1.
+routes/book/Book.jsx, code is 11, comment is 0, blank is 4.
+routes/book/index.js, code is 2, comment is 0, blank is 1.
+routes/home/Home.css, code is 0, comment is 0, blank is 0.
+routes/home/Home.jsx, code is 21, comment is 0, blank is 4.
+routes/home/index.js, code is 2, comment is 0, blank is 1.
+routes/index.js, code is 7, comment is 0, blank is 1.
+routes/location/index.js, code is 2, comment is 0, blank is 1.
+routes/location/Location.css, code is 13, comment is 0, blank is 1.
+routes/location/Location.jsx, code is 13, comment is 0, blank is 4.
+serviceWorker.js, code is 97, comment is 34, blank is 13.
+setupTests.js, code is 1, comment is 4, blank is 0.
+utils/colour.js, code is 13, comment is 0, blank is 5.
+utils/hipsum.js, code is 13, comment is 1, blank is 3.
+utils/index.js, code is 4, comment is 0, blank is 1.
+utils/theme.json, code is 8, comment is 0, blank is 0.
+===============================================================================

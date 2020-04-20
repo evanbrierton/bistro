@@ -1,0 +1,450 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/evanbrierton/Desktop/Computer Science/Stage 1/Spring/Web Design/Project/bistro/src",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2020-04-16 19:47:36",
+            "filesum": 67,
+            "codesum": 968,
+            "commentsum": 108,
+            "blanksum": 178,
+            "statistics": {
+                ".css": {
+                    "code": 315,
+                    "comment": 69,
+                    "blank": 49
+                },
+                ".js": {
+                    "code": 192,
+                    "comment": 39,
+                    "blank": 44
+                },
+                ".jsx": {
+                    "code": 446,
+                    "comment": 0,
+                    "blank": 85
+                },
+                ".json": {
+                    "code": 8,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".svg": {
+                    "code": 7,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "components/app/App.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "components/app/App.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "components/app/App.test.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "components/app/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "components/bookingConfirmation/BookingConfirmation.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "components/bookingConfirmation/BookingConfirmation.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "components/bookingConfirmation/index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 35,
+                    "comment": 48,
+                    "filename": "components/bookingModal/BookingModal.css"
+                },
+                {
+                    "blank": 13,
+                    "code": 84,
+                    "comment": 0,
+                    "filename": "components/bookingModal/BookingModal.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "components/bookingModal/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "components/button/Button.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "components/button/Button.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "components/button/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "components/calendar/Calendar.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "components/calendar/Calendar.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "components/calendar/index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "components/emailForm/EmailForm.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "components/emailForm/EmailForm.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "components/emailForm/index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "components/footer/Footer.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "components/footer/Footer.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "components/footer/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "components/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "components/jumbotron/index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "components/jumbotron/Jumbotron.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "components/jumbotron/Jumbotron.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "components/main/index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "components/main/Main.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "components/navbar/index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 30,
+                    "comment": 11,
+                    "filename": "components/navbar/Navbar.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "components/navbar/Navbar.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "components/parallax/index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "components/parallax/Parallax.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "components/parallax/Parallax.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "components/timeInput/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "components/timeInput/TimeInput.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "components/timeInput/TimeInput.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "firebase.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "icons/Check.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "icons/index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "icons/Next.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "icons/Previous.jsx"
+                },
+                {
+                    "filename": "images/background.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "images/bar.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "images/burger.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "images/crown-1332785_960_720.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "images/index.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 77,
+                    "comment": 10,
+                    "filename": "index.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "index.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "logo.svg"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "routes/about/About.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "routes/about/index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "routes/book/Book.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "routes/book/index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "routes/home/Home.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "routes/home/Home.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "routes/home/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "routes/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "routes/location/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "routes/location/Location.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "routes/location/Location.jsx"
+                },
+                {
+                    "blank": 13,
+                    "code": 97,
+                    "comment": 34,
+                    "filename": "serviceWorker.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "setupTests.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "utils/colour.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 1,
+                    "filename": "utils/hipsum.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "utils/index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "utils/theme.json"
+                }
+            ]
+        }
+    ]
+}
