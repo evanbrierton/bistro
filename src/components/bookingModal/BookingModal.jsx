@@ -48,6 +48,7 @@ class BookingModal extends Component {
       else if (!time) reject(new Error('You have not selected a time.'));
       else if (!name) reject(new Error('You have not entered a name.'));
       else if (!email) reject(new Error('You have not entered an email.'));
+      else if (!navigator.onLine) reject(new Error('You are not connected to the internet.'));
       else {
         date.setHours(time.slice(0, 2));
         date.setMinutes(time.slice(3, 6));

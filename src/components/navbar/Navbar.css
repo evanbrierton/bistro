@@ -19,7 +19,6 @@
     transform: scale(1.2);
     transition: transform 0.2s ease;
   }
-  
 }
 
 @media (max-width: 1200px) {
@@ -34,9 +33,9 @@
   }
 }
 
-/* @media (max-width: 900px) {
-  .Parallax {
-    height: 30vh;
+@media (max-width: 900px) {
+  .Navbar {
+    height: 15vh;
   }
 }
 
@@ -44,4 +43,4 @@
   .Parallax {
     display: none;
   }
-} */
+}

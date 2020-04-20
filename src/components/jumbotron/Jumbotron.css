@@ -21,3 +21,14 @@
 .Jumbotron > p {
   margin: 3rem;
 }
+
+@media (max-width: 600px) {
+  .Jumbotron {
+    background-color: white !important;
+    color: #3b322c !important;
+  }
+
+  .Jumbotron >hr {
+    background-color: #3b322c !important;
+  }
+}
