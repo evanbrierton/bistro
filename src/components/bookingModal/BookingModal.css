@@ -23,10 +23,6 @@ input {
   height: fit-content;
 }
 
-*:focus {
-  outline: none !important;
-}
-
 .BookingModal > .button-section > hr {
   width: 100%;
 }
@@ -38,6 +34,10 @@ input {
   justify-content: center;
   flex-wrap: wrap;
   width: 100%
+}
+
+.DayPicker-Day--selected {
+  background-color: #b71c1c !important;
 }
 
 @media (max-width: 600px) {

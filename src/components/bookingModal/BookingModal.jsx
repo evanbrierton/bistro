@@ -18,6 +18,15 @@ class BookingModal extends Component {
     };
   }
 
+  componentDidMount = () => {
+    document.querySelector('.DayPicker-Caption').setAttribute('aria-level', 2);
+    document.querySelector('.DayPicker-TodayButton').style.color = theme.active;
+    Array.from(document.querySelectorAll('abbr')).forEach((item) => {
+      // eslint-disable-next-line no-param-reassign
+      item.style.color = theme.text.dark;
+    });
+  }
+
   handleDateClick = (date, { disabled }) => (!disabled ? this.setState({ date }) : null);
 
   handleChange = (field) => ({ target: { value } }) => this.setState({ [field]: value })
@@ -84,8 +93,8 @@ class BookingModal extends Component {
       <form className="BookingModal" style={{ color: theme.text.dark }}>
         { scene !== 3 ? (
           <span style={{ marginLeft: '90%' }}>
-            <Button backgroundColor="rgba(0, 0, 0, 0)" color={theme.text.dark} Icon={Previous} style={{ boxShadow: 'none' }} onClick={this.previous} />
-            <Button backgroundColor="rgba(0, 0, 0, 0)" color={theme.text.dark} Icon={Next} style={{ boxShadow: 'none' }} onClick={this.next} />
+            <Button name="previous" backgroundColor="rgba(0, 0, 0, 0)" color={theme.text.dark} Icon={Previous} style={{ boxShadow: 'none' }} onClick={this.previous} />
+            <Button name="next" backgroundColor="rgba(0, 0, 0, 0)" color={theme.text.dark} Icon={Next} style={{ boxShadow: 'none' }} onClick={this.next} />
           </span>
         ) : null }
         {components[scene]}
