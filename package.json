@@ -18,7 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "git add . && git commit -m --message && git push -u origin master && yarn run build && firebase deploy && yarn start"
   },
   "eslintConfig": {
     "extends": "react-app"
