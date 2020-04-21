@@ -18,6 +18,7 @@ class BookingModal extends Component {
     };
   }
 
+  // Fix accessibility issues with the calendar component.
   componentDidMount = () => {
     document.querySelector('.DayPicker-Caption').setAttribute('aria-level', 2);
     document.querySelector('.DayPicker-TodayButton').style.color = theme.active;
@@ -27,10 +28,12 @@ class BookingModal extends Component {
     });
   }
 
+  // Handle user input for all fields in the form by updating the state to their current value
   handleDateClick = (date, { disabled }) => (!disabled ? this.setState({ date }) : null);
 
   handleChange = (field) => ({ target: { value } }) => this.setState({ [field]: value })
 
+  // Functions to change the form scene
   next = () => {
     const { scene } = this.state;
     if (scene === 1) this.setState({ buttonFunction: this.submit, buttonText: 'SUBMIT' });
@@ -52,6 +55,7 @@ class BookingModal extends Component {
 
     this.setState({ error: null });
 
+    // Promise for error checking and data formatting
     const submitter = new Promise((resolve, reject) => {
       if (!date) reject(new Error('You have not selected a date.'));
       else if (!time) reject(new Error('You have not selected a time.'));
@@ -66,7 +70,7 @@ class BookingModal extends Component {
     });
 
     submitter
-      .then((data) => emailer(data))
+      .then((data) => emailer(data)) // Send email to customer
       .then(() => (
         db.add({
           date: date.toLocaleDateString(),
@@ -74,7 +78,7 @@ class BookingModal extends Component {
           name,
           email,
         })
-      ))
+      )) // Add customer info to the database
       .then(() => this.setState({ scene: 3 }))
       .catch((error) => this.setState({ error }));
   };
@@ -83,6 +87,7 @@ class BookingModal extends Component {
     const {
       date, time, scene, buttonFunction, buttonText, name, email, error,
     } = this.state;
+    // Different sections of the form
     const components = [
       <Calendar handleDateClick={this.handleDateClick} selectedDate={date} />,
       <TimeInput value={time} onChange={this.handleChange('time')} />,
